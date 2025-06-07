@@ -37,7 +37,7 @@ export default function Home() {
                     <div className="flex justify-between w-[90vw] lg:w-[48vw] xl:w-[38vw]">
                       <Link
                         to={`/${user.id}`}
-                        className="flex gap-3 items-center hover:cursor-pointer"
+                        className="flex gap-3 items-center hover:cursor-pointer hover:underline decoration-[#4A4FC7]"
                       >
                         <img
                           src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg"
